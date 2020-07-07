@@ -15,6 +15,7 @@ header{
   background-image: url('../images/bg1.svg');
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -284,7 +285,21 @@ svg {
     stroke-dashoffset: 1050;
   }
 }
-
+.carousel-inner{
+  padding: 3% 7% 0% 7%;
+  }
+.carousel-img{
+  padding: 3% 2% 0 2%;
+  border-radius: 5px;
+  background: linear-gradient(47deg,rgba(255, 255, 255, 0.8) 0%,rgba(0, 0, 0, 0.3) 60%); 
+  border: 1px solid gray;
+  margin-bottom: 22px;
+ 
+}
+.carousel-caption{
+  width: 35%;
+  margin: auto;
+}
 
 /*--------------------------- footer ----------------------------------  */
 .insta, .linkedin, .twitter{    /*----------Social icon button----------*/
@@ -308,6 +323,8 @@ svg {
 .insta-color{color:#dc3545;}
 .linked-color{color: #0e76a8;}
 .twit-color{color:#00acee;}
+.mit:hover{color:#00acee; cursor: pointer;}
+
 /*---------------------------! footer ----------------------------------  */
 
 
@@ -327,10 +344,13 @@ svg {
     margin: 0 5px;   
     padding: 10px;
  }      
+
 }
 
 @media screen and (max-width:415px){
-
+.intro{
+  display: none;
+}
  .insta, .linkedin, .twitter{
         margin: 0 5px;   
         padding: 10px 15px;
@@ -346,6 +366,17 @@ svg {
      .dot{
         padding:10% 5%;
       }
+      .carousel-inner{
+        padding: 25% 7% 5% 7%;
+        }
+        .carousel-caption{
+          width: auto;
+          margin-bottom: 3px;
+        }
+        .carousel-img{
+          padding: 22% 2% 0 2%;
+          width: 90%;
+        }
 }
 /*-------------------! media screen style ----------------------------------- */
 

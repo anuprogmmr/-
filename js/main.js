@@ -9,6 +9,7 @@ document.getElementById("year").innerHTML = "2020 - " + n;
 
 
 
+
 const texts=["PROGRAMMER. . .","PHOTOGRAPHER. . .","DESIGNER. . ."];
 let count=0;
 let index= 0;
@@ -44,3 +45,6 @@ document.getElementById("h4-text").style.color="#00acee";
 document.getElementById("h6-text").style.display="none";
 document.getElementById("text").style.display="block";
 }
+
+
+
